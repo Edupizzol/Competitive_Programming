@@ -21,7 +21,8 @@ string greedy_eat_all_im_hungry_my_belly_yearns_for_numbers(const vector<long lo
 
     for(int i=8;i>=0;i--){
 
-        while(leftover>vetor[i]){
+        if(vetor[i]==min_cost) continue;  
+        while(position<digits && leftover>vetor[i]){
             s[position]='0'+i+1;
             position++;
             leftover=leftover+min_cost-vetor[i];
