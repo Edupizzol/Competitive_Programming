@@ -26,7 +26,7 @@ Cada arquivo `.cpp` corresponde a um problema resolvido, geralmente do [CSES Pro
 - [x] Two pointers e prefix sums
 - [x] Greedy
 - [x] Recursão e backtracking
-- [ ] Estruturas de dados (pilha, fila, deque, heap)
+- [x] Estruturas de dados (pilha, fila, deque, heap)
 - [ ] Grafos (BFS/DFS aprofundado, caminhos mínimos, DSU, árvores)
 - [ ] Programação dinâmica
 - [ ] Matemática e número teoria
