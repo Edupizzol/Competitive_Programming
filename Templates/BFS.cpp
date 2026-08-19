@@ -9,7 +9,7 @@ void bfs(int origem){
     queue<int> q;
     q.push(origem);
     visited[origem]=true;
-    distances[origem]=true;
+    distances[origem]=0;
 
     while(!q.empty()){
         int node=q.front();

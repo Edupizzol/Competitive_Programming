@@ -7,7 +7,7 @@ vector<bool> visited;
 void dfs(int node){
 
     visited[node]=true;
-    for(int neighbour:adj[node]) if(!visited[node]) dfs(neighbour);
+    for(int neighbour:adj[node]) if(!visited[neighbour]) dfs(neighbour);
     
 }
 
